@@ -1,0 +1,372 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.ynd{
+    width: 100%;
+        padding-left: 15.416vw;
+        padding-right: 15.416vw;
+    padding-top: 40px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+#imag{
+    padding: 0px 1px 0px 1px;
+}
+.ulflex{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    gap: 2.6vw;
+    font-family: sans-serif;
+ align-items: center;
+}
+
+#text{
+        text-decoration: none;
+color: black;
+}
+
+#text2{
+  -webkit-text-fill-color: transparent;
+    background: linear-gradient(96.22deg, #4c00c9 11.89%, #c90048);
+    background-clip: text;
+   text-decoration: none;
+}
+
+.text12{
+    display: none;
+    padding: 10px 5px 10px 5px;
+}
+.text122{
+    text-decoration: none;
+    color: grey;
+}
+.textl1:hover  .text12{
+display: block;
+
+}
+
+.textl1{
+    position: relative;
+    cursor: pointer;
+}
+.das{
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    width: 190px;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+}
+.text122:hover{
+    color: black;
+}
+.text3{
+    background-color: rgb(12, 12, 190);
+    width: 180px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.text3:hover{
+    background-color: white;
+    
+    border: solid 2px #4c00c9;
+}
+
+#text3{
+  color: white;
+  text-decoration: none;
+    width: 180px;
+    height: 40px;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#text3:hover{
+    color: #4c00c9;
+}
+#text4{
+    color: black;
+    
+}
+.text4{
+    display: none;
+
+    font-size: 30px;
+}
+.mas1{
+        padding-left: 15.416vw;
+        padding-right: 15.416vw;
+        padding-bottom: 5rem;
+        padding-top: 5rem;
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        gap: 1rem;
+}
+.hash h1{
+    display: flex;
+    margin: 0;
+    padding: 20px 0px 10px 0px;
+    font-size: 80px;
+    font-family: sans-serif;
+    color: #4c00c9;
+    flex-wrap: nowrap;
+}
+.hash p{
+    font-size:15px;
+    font-family: sans-serif;
+    display: flex;
+    margin: 0;
+    padding-bottom: 20px;
+    
+}
+.divbut{
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    
+    padding-bottom: 20px;
+}
+.but{
+    padding: 12px;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+.but:hover{
+    background-color: #060137;
+    color: white;
+}
+.tak span{
+    margin: 0;
+    font-family: sans-serif;
+}
+.but2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.but3{
+    padding: 14px 20px 14px 20px;
+    border-radius: 50px;
+    background-color: #2458c7;
+    color: white;
+    border:0;
+    font-size: 15px;
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.but4{
+    padding: 14px 20px 14px 20px;
+    border-radius: 50px;
+    background-color: white; 
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.but3:hover{
+    background-color: white;
+    border: 1px solid #5d4bff;
+    color: #5d4bff;
+}
+.but4:hover{
+        background-color: #060137;
+    color: white;
+}
+.erku{
+    display: flex;
+    align-items: center;
+}
+.mas2{
+        padding-left: 15.416vw;
+        padding-right: 15.416vw;
+        padding-bottom: 5rem;
+        
+        display: grid;
+        row-gap: 1rem;
+        grid-template-rows: 1fr 3fr;
+    
+}
+.pclas{
+    font-size: 35px;
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+}
+.mekmek{
+    display: flex;
+    flex-direction: column;
+            position: relative;
+
+}
+.mekmek img{
+    position: absolute;
+    left:180px;
+    display: flex;
+    justify-content: flex-end;
+}
+.erkuerku{
+    display: grid;
+    gap: 1rem;
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    box-sizing: border-box;
+}
+.meka{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+gap: 0.5rem;
+padding: 1.5rem 2rem 1.5rem 2rem;
+}
+.t{
+    font-size: 40px;
+    margin: 0;
+    color: #1202a9;
+    font-family: sans-serif;
+}
+.tt{
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+@media screen and (max-width:1700px) {
+    .ynd{
+        padding-left: 8.416vw;
+        padding-right: 8.416vw;
+    }
+    .ulflex{
+        gap: 1.6vw;
+    }
+    .mas1{
+        padding-left: 8.416vw;
+        padding-right: 8.416vw;        
+    }
+    .mas2{
+        padding-left: 8.416vw;
+        padding-right: 8.416vw;        
+    }
+}
+@media screen and (max-width:1430px) {
+    .n{
+        display: none;
+    }
+}
+@media screen and (max-width:1300px) {
+    .ynd{
+        padding-left: 5.416vw;
+        padding-right: 5.416vw;    
+    }
+    .mas1{
+       padding-left: 5.416vw;
+        padding-right: 5.416vw;
+    }
+    .mas2{
+       padding-left: 5.416vw;
+        padding-right: 5.416vw;        
+    }
+}
+/* @media screen and (max-width:1292px) {
+    .erku img{
+        height: 419px;
+    }
+} */
+@media screen and (max-width:1100px) {
+    .ynd{
+        padding-left: 4.416vw;
+        padding-right: 4.416vw;         
+    }
+}
+@media screen and (max-width:1000px) {
+    .ulflex{
+        display: none;
+    }
+    .text4{
+        display: flex;
+    }
+    .ynd{
+        padding-left:5.416vw;
+        padding-right: 5.416vw;   
+        padding-top: 30px;      
+    }
+    .mas1{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr auto;
+    }
+    .erkuerku{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .mas2{
+                grid-template-rows: 0.5fr 3fr;
+
+    }
+    .pclas{
+        font-size: 25px;
+    }
+    .mekmek img{
+        left: 100px;
+    }
+    .meka{
+        padding: 1rem 1.5rem 1rem 1.5rem;
+    }
+    .t{
+        font-size: 30px;
+    }
+    .tt{
+        font-size: 14px;
+    }
+    .n{
+        display: none;
+    }
+
+}
+@media screen and (max-width:809px) {
+    .mas1{
+        grid-template-rows: 1fr auto;
+    }
+}
+@media screen and (max-width:600px) {
+    .erkuerku{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .mas2{
+        grid-template-rows: 0.3fr 3fr;
+    }
+}
+@media screen and (max-width:470px) {
+    .mas1{
+        grid-template-rows: 0.8fr auto;
+    }
+    .hash h1{
+        font-size: 60px;
+        padding: 10px 0px 10px 0px;
+    }
+    .hash p{
+        font-size: 15px;
+    }
+    .divbut{
+        padding-bottom: 10px;
+    }
+    /* .erku img{
+        height: 350px;
+    } */
+}
+
